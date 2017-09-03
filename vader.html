@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas width="300" height="400" id="canvas_rysunek">Twoja przeglądarka nie obsługuje canvas</canvas>
+		
+	<script>
+		var c = document.getElementById("canvas_rysunek");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(110,168,10,0,2*Math.PI);
+		ctx.stroke();
+	</script>
+	<script>
+		var c = document.getElementById("canvas_rysunek");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(140,220,7,0,2*Math.PI);
+		ctx.stroke();
+		</script>
+		<script>
+			var c = document.getElementById("canvas_rysunek");
+			var ctx = c.getContext("2d");
+			ctx.beginPath();
+			ctx.arc(80,220,7,0,2*Math.PI);
+			ctx.stroke();
+		</script><script>
+		var c = document.getElementById("canvas_rysunek");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(110,168,7,0,2*Math.PI);
+		ctx.stroke();
+	</script>
+	<script>
+		var c = document.getElementById("canvas_rysunek");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(140,220,10,0,2*Math.PI);
+		ctx.stroke();
+		</script>
+		<script>
+			var c = document.getElementById("canvas_rysunek");
+			var ctx = c.getContext("2d");
+			ctx.beginPath();
+			ctx.arc(80,220,10,0,2*Math.PI);
+			ctx.stroke();
+		</script>
+		<script>
+	var canvas = document.getElementById('canvas_rysunek')
+	if (canvas.getContext) {
+    var c = canvas.getContext('2d');
+    
+    c.beginPath();
+        c.moveTo(140,20);
+        c.bezierCurveTo(40,0,20,90,20,120);
+        c.moveTo(140,20);
+        c.bezierCurveTo(150,23,200,30,210,120);
+        c.stroke();
+        c.moveTo(0,280);
+        c.bezierCurveTo(10,90,90,110,90,110);
+        c.moveTo(0,280);
+        c.bezierCurveTo(10,70,70,90,90,90);
+        c.moveTo(140,110);
+        c.bezierCurveTo(180,120,220,140,230,280);
+        c.moveTo(140,90);
+        c.bezierCurveTo(200,90,230,140,230,280);
+        c.stroke();
+        c.moveTo(90,90);
+        c.lineTo(140,90);
+        c.moveTo(90,110);
+        c.lineTo(140,110);
+        c.stroke();
+        
+    //lewe oko
+        c.beginPath();
+        c.moveTo(100,110);
+        c.bezierCurveTo(110,170,10,160,50,123);
+        c.moveTo(105,110);
+        c.bezierCurveTo(110,170,20,170,40,133);
+        c.moveTo(30,160);
+        c.lineTo(70,220);
+        c.moveTo(37,160);
+        c.lineTo(70,210);
+        
+    //prawe oko
+        c.moveTo(120,110);
+        c.bezierCurveTo(110,170,200,160,172,123);
+        c.moveTo(115,110);
+        c.bezierCurveTo(110,180,200,160,180,127);
+        c.moveTo(190,160);
+        c.lineTo(150,220);
+        c.moveTo(183,160);
+        c.lineTo(150,210);
+    //usmiech
+        c.moveTo(0,260);
+        c.bezierCurveTo(0,220,220,220,230,260);
+    //boki i dodatki 
+        c.moveTo(21,110);
+        c.lineTo(15,160);
+        c.moveTo(220,170);
+        c.lineTo(209,110);
+        c.moveTo(100,19);
+        c.lineTo(100,90);
+        c.moveTo(120,16);
+        c.lineTo(120,90);
+        c.moveTo(105,160);
+        c.lineTo(105,110);
+        c.moveTo(115,160);
+        c.lineTo(115,110);
+    //maska    
+        c.moveTo(71,215);
+        c.lineTo(100,165)
+        c.moveTo(149,215);
+        c.lineTo(120,165);
+        c.moveTo(90,220);
+        c.lineTo(130,220);
+        
+        c.moveTo(80,210);
+        c.lineTo(101,173)
+        c.moveTo(141,210);
+        c.lineTo(120,173);
+        c.moveTo(89,215);
+        c.lineTo(131,215);
+ 	
+   		c.moveTo(90,215);
+        c.lineTo(90,193);
+        c.moveTo(95,215);
+        c.lineTo(95,185);
+        c.moveTo(100,215);
+        c.lineTo(100,175);
+        c.moveTo(105,215);
+        c.lineTo(105,177);
+        c.moveTo(110,215);
+        c.lineTo(110,177);
+        c.moveTo(115,215);
+        c.lineTo(115,177);
+        c.moveTo(120,215);
+        c.lineTo(120,175);
+        c.moveTo(125,215);
+        c.lineTo(125,185);
+        c.moveTo(130,215);
+        c.lineTo(130,193);
+        c.stroke();
+    	
+       
+       
+       c.closePath();
+
+        
+        
+        
+		
+		
+}
+</script>	
+
+</body>
+</html>
